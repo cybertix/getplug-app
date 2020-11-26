@@ -1,0 +1,86 @@
+.head-footer {
+  background-image: url(../../assets/img/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+.android-icon {
+  max-width: 10.5rem;
+  min-height: 3.6rem;
+}
+
+.apple-icon {
+  max-width: 10.5rem;
+  margin-left: 1rem;
+}
+
+.app-logo-container img {
+  max-width: 3rem;
+}
+
+.padded-footer {
+  padding: 4rem 6rem;
+}
+
+.social-media-icons-div img {
+  max-width: 1.5rem;
+  margin-left: 1rem;
+}
+
+.nav-detail-container {
+  margin-top: 1.2rem;
+}
+
+.border-bottom {
+  margin: 0 6rem;
+  margin-top: 5rem;
+  border-top: 1px solid grey;
+}
+.nav-detail-container div a,
+.links-container a {
+  display: block;
+  color: black;
+}
+
+.logo-container img {
+  width: 2.5rem;
+  margin-left: 1rem;
+}
+
+.links-container {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.links-container img {
+  max-width: 1rem;
+}
+
+.logo-container {
+  max-width: 80px;
+}
+
+.up-down-margin {
+  margin: 8px 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .links-container {
+    text-align: center;
+    margin: 0;
+  }
+  .logo-container {
+    display: none;
+  }
+  .nav-detail-container {
+    text-align: center;
+  }
+  .social-media-icons-div {
+    text-align: center;
+  }
+  .follow-text {
+    text-align: center;
+  }
+}

@@ -1,0 +1,28 @@
+.navbar {
+  background-color: #7b77f2;
+}
+
+.nav-item {
+  padding: 0.5rem;
+  margin-left: 1rem;
+}
+
+.navbar-brand {
+  margin-left: 4rem;
+}
+
+.navbar-brand img {
+  max-width: 2.5rem;
+}
+
+.loginContainer {
+  margin-right: 3rem;
+  color: white;
+}
+
+.loginBtn {
+  background-color: #ff6565;
+  width: 10rem;
+  margin-left: 0.5rem;
+  color: white;
+}

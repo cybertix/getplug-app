@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.first-section {
+  background-image: url(../../assets/img/3.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100% 100%;
+}
+
+.first-details {
+  padding: 5rem 7rem 13rem 10rem;
+}
+
+.learnMore-btn {
+  background-color: #7b77f2;
+  padding: 0.5rem 2rem;
+  margin-left: 0.5rem;
+  color: white;
+}
+
+.first-details h3 {
+  padding: 2rem;
+}
+
+.first-image {
+  max-width: 50%;
+  color: white;
+  margin: 14rem auto 0 auto;
+  padding: 0 7rem 0 4rem;
+}
+
+.first-image h3 {
+  padding: 2rem;
+}
+
+.less-w {
+  margin: 5rem auto 2rem auto;
+  padding: 1rem;
+  max-width: 50%;
+}
+
+.student-section {
+  background-image: url(../../assets/icons/Background-student.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100% 100%;
+}
+
+button {
+  color: white;
+}
+
+.parent-div {
+  padding: 100px 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.elipse-logo {
+  background-color: darkcyan;
+}
+
+.elipse-logo img {
+  max-width: 2rem;
+}
+
+.link-btn a {
+  text-decoration: none;
+}
+
+.explore-btn {
+  background-color: #ff6565;
+  padding: 0.3rem 3rem;
+}
+
+.image {
+  padding: 4rem;
+}
+
+.details {
+  padding: 4rem;
+}
+
+.details div {
+  margin: 1rem 0.2rem;
+}
+
+.left-right-margin {
+  margin-left: 0.5rem;
+}
+
+.employer-section {
+  background-image: url(../../assets/icons/Background-2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100% 100%;
+}
+
+.email-btn {
+  padding: 0rem 1rem;
+  border: none;
+}
+
+.email-box {
+  padding: 0 1rem;
+}
+
+.image img {
+  max-width: 70%;
+  border-radius: 30px;
+}
+
+.career-section {
+  background-image: url(../../assets/img/Background-3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100% 100%;
+}
+
+.input-group button {
+  background-color: #ff6565;
+}
+.input-group {
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .image {
+    padding: 0;
+    text-align: center;
+  }
+
+  .details {
+    padding: 0;
+  }
+  .parent-div {
+    padding: 150px 50px;
+  }
+
+  .image img {
+    border-radius: 30px;
+    max-width: 70%;
+    width: 350px;
+    height: 350px;
+  }
+
+  .hide-it {
+    display: none;
+  }
+
+  .first-details {
+    padding: 2.5rem 2rem 10rem 3rem;
+  }
+
+  .first-details h3 {
+    font-size: 20px;
+  }
+
+  .first-image {
+    margin: 8rem 0 0 0;
+    padding: 0 5rem;
+  }
+
+  .first-image h3 {
+    font-size: 20px;
+  }
+  .less-w {
+    max-width: 70%;
+  }
+  .less-w h3 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .first-section {
+    background-image: url(../../assets/img/3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100% 100%;
+  }
+
+  .first-details {
+    max-width: 45%;
+    margin: 2rem 0 1rem 1.2rem;
+    padding: 0 0 8rem 0;
+  }
+
+  .learnMore-btn {
+    padding: 0.1rem 1rem;
+    margin-right: 2rem;
+    color: white;
+  }
+
+  .first-details h3 {
+    font-size: 20px;
+  }
+
+  .first-image {
+    max-width: 45%;
+    margin: 8.5rem 1rem 0 2rem;
+    padding: 0 0 1rem 0;
+  }
+
+  .first-image h3 {
+    font-size: 20px;
+  }
+  .less-w {
+    max-width: 80%;
+  }
+  .less-w h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .first-section {
+    background-image: none;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .first-details {
+    background-image: url(../../assets/img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100% 100%;
+    min-width: 90%;
+    margin: auto;
+    height: 60vh;
+  }
+
+  .learnMore-btn {
+    padding: 0.2rem 1rem;
+    margin: 0;
+    color: white;
+  }
+
+  .LMB {
+    margin-right: 4rem;
+  }
+
+  .first-details h3 {
+    font-size: 22px;
+    margin: 4rem 1rem 0 2rem;
+  }
+
+  .first-image {
+    background-image: url(../../assets/img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100% 100%;
+    min-width: 90%;
+    margin: auto;
+    height: 60vh;
+  }
+
+  .first-image h3 {
+    font-size: 22px;
+    margin: 11rem 3rem 0 0.5rem;
+  }
+
+  .less-w h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .first-image h3 {
+    font-size: 19px;
+    margin: 10rem 3rem 0 0.5rem;
+  }
+  .first-details h3 {
+    font-size: 19px;
+    margin: 4rem 1rem 0 2rem;
+  }
+}
